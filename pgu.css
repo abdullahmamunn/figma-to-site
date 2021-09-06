@@ -1,12 +1,14 @@
 .sub_header{
     background: #333333 0% 0% no-repeat padding-box;
     opacity: 1;
+    width: 100%;
+    min-height: 8%;
 }
 .left_header{
     margin-top: 15px;
     display: flex;
 }
-.left_header label{
+.left_header span{
     text-align: left;
     margin-right: 9px;;
     font: normal normal bold 16px/21px Segoe UI;
@@ -69,9 +71,9 @@
     opacity: 1;
     
 }
-.banner-content h1{
+.banner-content h3{
     text-align: left;
-    font: normal normal bold 45px/60px Open Sans;
+    font: normal normal bold 35px/60px Open Sans;
     letter-spacing: 0px;
     color: #333333;
     opacity: 1;
@@ -90,6 +92,9 @@
     border-radius: 28px;
     opacity: 1;
     text-decoration: none;
+}
+.custom-btn:hover{
+    color: #fff;
 }
 .banner-img-ec1{
     width: 1402px;
@@ -177,11 +182,9 @@
     text-decoration: none;
 }
 
+/* কর্ম পরিকল্পনা এবং নীতি */
 .prokolpona_niti{
-    left: 0px;
-    height: 854px;
     background: transparent linear-gradient(114deg, #CD40FF 0%, #6F73EF 100%) 0% 0%;
-    opacity: 0.8;
 }
 
 .niti-heading{
@@ -394,8 +397,9 @@
     
 }
 .public-reaction{
-    background: #6F73EF 0% 0% no-repeat padding-box;
+    /* background-image: url('image/contact.jpg'); */
     opacity: 0.9;
+    background: #6F73EF 0% 0% no-repeat padding-box;
 }
 .contact-form input{
     padding: 17px;
@@ -430,6 +434,7 @@
 
 }
 .footer{
+    /* background-image: url('image/footer.jpg'); */
     background: #FBFBFB 0% 0% no-repeat padding-box;
     opacity: 1;
 
@@ -462,7 +467,7 @@
 .about-pgu ul li{
     background: #6F73EF26 0% 0% no-repeat padding-box;
     border-radius: 20px;
-    color: #6F73EF;
+   
 }
 .about-pgu ul li a{
     margin-right: 9px;
@@ -473,6 +478,7 @@
     padding-top: 8px;
     font-size: 25px;
     padding-left: 8px;
+    color: #6F73EF;
 }
 .unicef h1{
     text-align: left;
@@ -486,9 +492,51 @@
 .unicef ul {
     list-style-type: none;
     padding: 0;
-    margin-top: 48px;
+    /* margin-top: 48px; */
     /* text-align: left; */
     font: normal normal normal 16px/38px Open Sans;
     letter-spacing: 0px;
     color: #060606;
+}
+.unicef i{
+    color: #6F73EF;
+    font-size: 17px;
+    margin-right: 3px;
+}
+footer{
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+    min-height: 70px;
+    padding-top: 32px;
+    border-bottom: 1px solid #F3F3F3;
+}
+.technical-support{
+    display:flex;
+    float: right;
+
+}
+.technical-support h5{
+    text-align: center;
+    font: normal normal normal 16px/53px SF UI Display;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-right: 9px;
+}
+.policy-guide p{
+    padding-top: 9px;
+    text-align: left;
+    font: normal normal normal 14px/28px Open Sans;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+.technical-support a{
+   padding-top: 3px;
+
+}
+.technical-support img{
+    height: 50px;
+    width: 170px;
+    background: transparent url('image/nanosoft.PNG') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
 }
